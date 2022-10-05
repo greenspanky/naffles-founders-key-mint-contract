@@ -1,5 +1,5 @@
 # Naffles Founders Key Mint Bounty
-this repository contain the smart contract for the Founders key mint.
+This repository contain the smart contract for the Founders key mint.
 
 ## Tests
 Tests can be run using `npx hardhat test`
@@ -14,7 +14,7 @@ Mint will consist of 2 phases
 
 The first phase will consist of 1 allowlist sale, 1 waitlist sale and 1 public 
 
-allowlist and waitlist will use the same omnipotentAllowlistMint method.
+Allowlist and waitlist will use the same omnipotentAllowlistMint method.
 
 You can create allowlists with the createAllowlist method. The allowlist accepts 1 of the 2 phases. This allows us to create as many allowlists/waitlists merkle trees as necessary each with their own start and end time and allocation. 
 
