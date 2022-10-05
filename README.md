@@ -26,7 +26,7 @@ There is an AdminMint available for phase 2.
 We will need to have on chain data for the type of each pass so that we can request on chain if a user has a specific pass.
 token id 1-MAX_OMNIPOTENT_SUPPLY wil always be the omnipotent card (type 1). But the other passes will be randomly generated off chain, and posted on chain afterward.
 
-### Goal
+## Bounty
 The goal of this bounty hunt is to write a test that will break the contract:
 
 - Mint more than you're allowed.
