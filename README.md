@@ -12,7 +12,7 @@ Mint will consist of 2 phases
 - Omnipotent Key mint
 - Founders Key mint
 
-The first phase will consist of 1 allowlist sale, 1 waitlist sale and 1 public 
+The phases will consist of 1 allowlist sale, 1 waitlist sale and 1 public sale.
 
 Allowlist and waitlist will use the same omnipotentAllowlistMint method.
 
