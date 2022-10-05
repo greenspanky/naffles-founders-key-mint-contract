@@ -1,21 +1,21 @@
 {
-  "name": "naffles-smart-contracts",
+  "name": "naffles-founders-key-mint-contract",
   "version": "0.0.1",
-  "description": "Naffles smart contracts",
+  "description": "Naffles founders key mint contract",
   "main": "index.js",
   "scripts": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Naffles/naffles-smart-contracts.git"
+    "url": "git+https://github.com/Naffles/naffles-founders-key-mint-contract.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Naffles/naffles-smart-contracts/issues"
+    "url": "https://github.com/Naffles/naffles-founders-key-mint-contract/issues"
   },
-  "homepage": "https://github.com/Naffles/naffles-smart-contracts#readme",
+  "homepage": "https://github.com/Naffles/naffles-founders-key-mint-contract#readme",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^1.0.2",
     "@openzeppelin/contracts": "^4.7.3",
