@@ -33,3 +33,6 @@ The goal of this bounty hunt is to write a test that will break the contract:
 - Mint for less money than you're supposed to.
 - Get access to funds you're not supposed to access.
 - Exploit the contract in any other breaking way.
+
+
+Create a seperate branch and create pull pequest with your changes and your discord ID in the description. 
