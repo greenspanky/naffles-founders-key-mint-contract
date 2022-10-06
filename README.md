@@ -35,4 +35,4 @@ The goal of this bounty hunt is to write a test that will break the contract:
 - Exploit the contract in any other breaking way.
 
 
-Create a seperate branch and create a pull pequest with your changes and your discord ID in the description. 
+Create a seperate branch and create a pull request with your changes and your discord ID in the description. 
