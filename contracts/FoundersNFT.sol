@@ -218,12 +218,10 @@ contract FoundersNFT is ERC721A, AccessControl, ReentrancyGuard {
             revert SaleNotActive();
         }
 
-        if (allowlist.mintPhase == FOUNDERS_MINT) {
-            _foundersAllowlistMintCheck(_mintAmount, allowlist.allowance);
-        } else {
-            revert InvalidAllowlistId({allowlistId: _proof.allowlist_id});
+        if (allowlist.mintPhase != FOUNDERS_MINT) {
+           revert InvalidAllowlistId({allowlistId: _proof.allowlist_id});
         }
-
+        _foundersAllowlistMintCheck(_mintAmount, allowlist.allowance);
         _allowlistCheckAndMint(_mintAmount, allowlist.root, _proof);
     }
 
