@@ -27,6 +27,6 @@
     "typescript": "^4.8.2"
   },
   "dependencies": {
-    "merkletreejs": "^0.2.32"
+    "merkletreejs": "^0.4.1"
   }
 }
